@@ -30,4 +30,4 @@ This simple portfolio project aims to provide a clean and professional-looking w
 
 ## Getting Started
 
-1. Clone the repository:[git clone https://github.com/username/simple-portfolio.git]
+1. Clone the repository:git clone https://github.com/username/simple-portfolio.git
