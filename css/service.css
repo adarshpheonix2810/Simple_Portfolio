@@ -1,0 +1,15 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header a {
+    transition: color 0.3s ease;
+}
+
+footer a {
+    transition: color 0.3s ease;
+}
+
+footer div {
+    font-size: 0.875rem;
+}

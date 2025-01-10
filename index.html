@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual Designer Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="img/favicon.ico">
+</head>
+
+<body class="bg-black text-white font-sans">
+
+    <!-- Navbar -->
+    <nav class="flex items-center justify-between p-6">
+        <div>
+            <img src="img/pheonix.png" alt="Logo" class="w-10">
+        </div>
+        <ul class="flex space-x-8">
+            <li><a href="page2.html" class="text-white hover:text-red-500">Home</a></li>
+            <li><a href="project.html" class="text-white hover:text-red-500">Project</a></li>
+            <li><a href="about.html" class="text-white hover:text-red-500">About</a></li>
+            <li><a href="contact.html" class="text-white hover:text-red-500">Contact</a></li>
+            <li><a href="service.html" class="text-white hover:text-red-500">Other Page</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative h-screen bg-cover bg-center bg-black" style="background-image: url('img/portfolio.jpg');">
+        <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+        <div class="relative container mx-auto text-center text-white py-40">
+            <h1 class="text-6xl font-bold mb-4">Hello I'm Adarsh Singh</h1>
+            <h2 class="text-4xl font-semibold mb-8">Web Designer</h2>
+            <p class="text-lg mb-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            <a href="about.html" class="bg-red-500 text-white py-3 px-6 rounded-full text-lg hover:bg-red-700">About Me</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section">
+        <div class="text-center p-6 bg-black rounded shadow-lg">
+            <img src="img/pheonix.png" alt="UI Design">
+            <div class="text-3xl text-red-500 mb-4">UI Design</div>
+            <p>Lorem ipsum is simply text of the printing type.</p>
+            <a href="#" class="text-red-500 mt-4 inline-block">Know More →</a>
+        </div>
+        <div class="text-center p-6 bg-green-500 rounded shadow-lg">
+            <img src="img/pheonix.png" alt="Product Design">
+            <div class="text-3xl mb-4 text-red-500">Product Design</div>
+            <p class="text-white">Lorem ipsum is simply text of the printing type.</p>
+            <a href="#" class="text-red-500 mt-4 inline-block">Know More →</a>
+        </div>
+        <div class="text-center p-6 bg-black rounded shadow-lg">
+            <img src="img/pheonix.png" alt="Branding">
+            <div class="text-3xl text-red-500 mb-4">Branding</div>
+            <p>Lorem ipsum is simply text of the printing type.</p>
+            <a href="#" class="text-red-500 mt-4 inline-block">Know More →</a>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience-section">
+        <div>
+            <div class="text-7xl text-red-500 font-bold">05</div>
+            <p class="mt-2">Years Experience</p>
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mt-8 max-w-4xl">
+            <div>
+                <div class="text-4xl font-bold text-red-500">50+</div>
+                <p>Clients</p>
+            </div>
+            <div>
+                <div class="text-4xl font-bold text-red-500">05</div>
+                <p>Years Experience</p>
+            </div>
+            <div>
+                <div class="text-4xl font-bold text-red-500">12+</div>
+                <p>Completed Projects</p>
+            </div>
+            <div>
+                <div class="text-4xl font-bold text-red-500">10</div>
+                <p>Achievements</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section class="projects-section">
+        <div class="flex items-center justify-between mb-8">
+            <h2 class="text-3xl font-bold">Featured Projects</h2>
+            <a href="project.html" class="text-red-500">View All</a>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="project-item">
+                <img src="img/pheonix.png" alt="Project 1" class="project-image">
+                <h3 class="text-xl font-bold">Fiverr Clone</h3>
+                <a href="#" class="text-red-500 mt-4 inline-block">Know More →</a>
+            </div>
+            <div class="project-item">
+                <img src="img/pheonix.png" alt="Project 2" class="project-image">
+                <h3 class="text-xl font-bold">whatsapp clone</h3>
+                <a href="#" class="text-red-500 mt-4 inline-block">Know More →</a>
+            </div>
+            <div class="project-item">
+                <img src="img/pheonix.png" alt="Project 3" class="project-image">
+                <h3 class="text-xl font-bold">Chatbot</h3>
+                <a href="#" class="text-red-500 mt-4 inline-block">Know More →</a>
+            </div>
+            <div class="project-item">
+                <img src="img/pheonix.png" alt="Project 4" class="project-image">
+                <h3 class="text-xl font-bold">Portfolio</h3>
+                <a href="#" class="text-red-500 mt-4 inline-block">Know More →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <h2 class="text-4xl font-bold mb-4">Let's work together on your next project</h2>
+        <p class="text-lg mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
+        <a href="contact.html" class="btn-red">Contact</a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-section">
+        <ul class="flex justify-center space-x-6 mb-6">
+            <li><a href="page2.html" class="text-white hover:text-red-500">Home</a></li>
+            <li><a href="about.html" class="text-white hover:text-red-500">About</a></li>
+            <li><a href="project.html" class="text-white hover:text-red-500">Projects</a></li>
+            <li><a href="contact.html" class="text-white hover:text-red-500">Contact</a></li>
+        </ul>
+        <div class="text-white">
+            <a href="https://github.com/pheonix281017" class="inline-block mx-2 text-white hover:text-red-500">Github</a>
+            <a href="https://www.linkedin.com/in/adarsh-singh-412298273/" class="inline-block mx-2 text-white hover:text-red-500">Linkedin</a>
+            <a href="https://www.instagram.com/adarsh_pheonix_/" class="inline-block mx-2 text-white hover:text-red-500">Instagram</a>
+        </div>
+        <p class="text-white mt-4">Created by <a href="#" class="text-red-500">Adarsh</a></p>
+    </footer>
+
+</body>
+
+</html>
