@@ -22,7 +22,6 @@ This simple portfolio project aims to provide a clean and professional-looking w
 - JavaScript
 
 ## Features
-
 - Responsive design
 - Smooth scrolling
 - Interactive project showcase
